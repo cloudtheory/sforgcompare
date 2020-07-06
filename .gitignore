@@ -2,3 +2,5 @@ venv
 environment.txt
 *.pyc
 .idea
+sforgcompare/__init__.pyc
+sforgcompare/settings.pyc

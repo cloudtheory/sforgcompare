@@ -12,7 +12,7 @@ class Job(models.Model):
 	status = models.CharField(max_length=255, blank=True)
 	error = models.TextField(blank=True)
 	error_stacktrace = models.TextField(blank=True)
-	zip_file = models.FileField(upload_to='/', blank=True, null=True)
+	zip_file = models.FileField(upload_to='.', blank=True, null=True)
 	zip_file_error = models.TextField(blank=True, null=True)
 
 	def sorted_orgs(self):

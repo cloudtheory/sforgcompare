@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 python-2.7.18
+=======
+python-2.7.15
+>>>>>>> parent of 3c422f2... Update Python version
